@@ -1,0 +1,45 @@
+:root {
+    /* Colores principales */
+    --primary-color: #5a9cff;
+    --primary-hover: #3a86ff;
+    --secondary-color: #9d5cff;
+    
+    /* Textos */
+    --text-primary: #f8fafc;
+    --text-secondary: #e2e8f0;
+    --text-muted: #a0aec0;
+    --text-light: #f8fafc;
+    
+    /* Fondos */
+    --bg-body: #1a202c;
+    --bg-section: #2d3748;
+    --bg-card: #2d3748;
+    --bg-nav: rgba(45, 55, 72, 0.9);
+    --bg-footer: #1a202c;
+    
+    /* Bordes */
+    --border-color: #4a5568;
+    
+    /* Sombras */
+    --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
+    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.3);
+    --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.3);
+    
+    /* Botones */
+    --bg-btn: var(--primary-color);
+    --text-btn: #ffffff;
+    --bg-btn-hover: var(--primary-hover);
+    --code-btn-bg: #2d3748; /* Un tono oscuro que combine con tu tema */
+    --code-btn-text: #f8fafc; /* Texto blanco */
+    
+    /* Efectos */
+    --backdrop-blur: blur(10px);
+    
+    /* Decoraciones */
+    --decoration-color-1: rgba(90, 156, 255, 0.1);
+    --decoration-color-2: rgba(157, 92, 255, 0.1);
+    
+    /* Formularios */
+    --input-bg: #2d3748;
+    --input-focus-bg: #1a202c;
+  }

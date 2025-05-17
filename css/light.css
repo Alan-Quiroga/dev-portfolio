@@ -1,0 +1,45 @@
+:root {
+    /* Colores principales */
+    --primary-color: #3a86ff;
+    --primary-hover: #2667cc;
+    --secondary-color: #8338ec;
+    
+    /* Textos */
+    --text-primary: #2d3748;
+    --text-secondary: #4a5568;
+    --text-muted: #718096;
+    --text-light: #f8fafc;
+    
+    /* Fondos */
+    --bg-body: #ffffff;
+    --bg-section: #f8fafc;
+    --bg-card: #ffffff;
+    --bg-nav: rgba(255, 255, 255, 0.9);
+    --bg-footer: #2d3748;
+    
+    /* Bordes */
+    --border-color: #e2e8f0;
+    
+    /* Sombras */
+    --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.1);
+    
+    /* Botones */
+    --bg-btn: var(--primary-color);
+    --text-btn: #ffffff;
+    --bg-btn-hover: var(--primary-hover);
+    --code-btn-bg: #2d3748; /* Mismo color que en oscuro o el que prefieras */
+    --code-btn-text: #ffffff; /* Texto blanco */
+    
+    /* Efectos */
+    --backdrop-blur: blur(10px);
+    
+    /* Decoraciones */
+    --decoration-color-1: rgba(58, 134, 255, 0.1);
+    --decoration-color-2: rgba(131, 56, 236, 0.1);
+    
+    /* Formularios */
+    --input-bg: #f8fafc;
+    --input-focus-bg: #ffffff;
+  }

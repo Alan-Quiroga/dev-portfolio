@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mi Portfolio</title>
+  <link rel="stylesheet" href="/css/base.css">
+  <link rel="stylesheet" href="/css/light.css" id="theme-style">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+  <button id="theme-toggle" class="theme-toggle-btn" aria-label="Cambiar tema">
+    <i class="fas fa-moon"></i>
+    <span class="sr-only">Cambiar tema</span>
+  </button>
+
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <nav>
+        <ul>
+          <li><a href="#sobre-mi">Sobre mí</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#certificaciones">Certificaciones</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="sobre-mi" class="about-section">
+    <div class="about-container">
+      <div class="about-content">
+        <h2 class="about-title">Sobre Mí</h2>
+        
+        <p class="about-text">
+          Soy Alan Quiroga, desarrollador Full Stack especializado en crear soluciones tecnológicas robustas y escalables. 
+          Combino mis conocimientos técnicos con mi formación en ciberseguridad para construir aplicaciones seguras y eficientes.
+        </p>
+        
+        <div class="about-highlights">
+          <div class="highlight-item">
+            <div class="highlight-icon">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+            <div class="highlight-text">
+              <h4 class="highlight-title">Desarrollo Full Stack</h4>
+              <p class="highlight-description">
+                Experiencia en todo el ciclo de desarrollo, desde el frontend hasta la implementación en producción.
+              </p>
+            </div>
+          </div>
+          
+          <div class="highlight-item">
+            <div class="highlight-icon">
+              <i class="fas fa-shield-alt"></i>
+            </div>
+            <div class="highlight-text">
+              <h4 class="highlight-title">Enfoque en Seguridad</h4>
+              <p class="highlight-description">
+                Formación en ciberseguridad aplicada al desarrollo para crear aplicaciones más seguras desde su concepción.
+              </p>
+            </div>
+          </div>
+          
+          <div class="highlight-item">
+            <div class="highlight-icon">
+              <i class="fas fa-project-diagram"></i>
+            </div>
+            <div class="highlight-text">
+              <h4 class="highlight-title">Gestión de Proyectos</h4>
+              <p class="highlight-description">
+                Capacidad para liderar proyectos técnicos con metodologías ágiles y enfoque en resultados.
+              </p>
+            </div>
+          </div>
+        </div>
+        <a href="#proyectos" class="btn">Ver mis proyectos</a>
+      </div>
+      
+      <div class="about-image">
+        <img src="https://i.postimg.cc/wB6drZLx/Chat-GPT-Image-10-may-2025-03-59-14-a-m.png" 
+             alt="Alan Quiroga - Desarrollador Full Stack" 
+             class="profile-image">
+      </div>
+    </div>
+    
+    <!-- Elementos decorativos -->
+    <div class="about-decoration decoration-1"></div>
+    <div class="about-decoration decoration-2"></div>
+  </section>
+
+ <!-- PROYECTOS -->
+
+<section id="proyectos" class="projects">
+  <h2 class="proyectos-title">Mis Proyectos</h2>
+  <div class="projects-grid">
+
+    <!-- Weather App -->
+    <div class="project-card">
+      <div class="project-image-wrapper">
+        <img src="img/weather-app.jpg" alt="Interfaz de Weather App mostrando pronóstico" class="project-image">
+      </div>
+      <div class="project-content">
+        <div class="project-tech">
+          <span class="tech-tag"><i class="fab fa-html5"></i> HTML5</span>
+          <span class="tech-tag"><i class="fab fa-css3-alt"></i> CSS3</span>
+          <span class="tech-tag"><i class="fab fa-js-square"></i> JavaScript</span>
+          <span class="tech-tag"><i class="fas fa-chart-line"></i> Chart.js</span>
+        </div>
+        <h3 class="project-title">Weather App</h3>
+        <p class="project-description">
+          Aplicación meteorológica con geolocalización, gráficos interactivos y cambio de unidades Celsius/Fahrenheit.
+        </p>
+        <div class="project-links">
+          <a href="#" class="project-link link-code">
+            <i class="fab fa-github"></i> Código
+          </a>
+          <a href="#" class="project-link link-demo">
+            <i class="fas fa-external-link-alt"></i> Demo
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Generador Dev Tools -->
+    <div class="project-card">
+      <div class="project-image-wrapper">
+        <img src="img/dev-tools.jpg" alt="Generador de paletas de colores" class="project-image">
+      </div>
+      <div class="project-content">
+        <div class="project-tech">
+          <span class="tech-tag"><i class="fab fa-react"></i> React</span>
+          <span class="tech-tag"><i class="fas fa-palette"></i> Chroma.js</span>
+          <span class="tech-tag"><i class="fas fa-database"></i> LocalStorage</span>
+        </div>
+        <h3 class="project-title">Generador Dev/UX</h3>
+        <p class="project-description">
+          Suite con generador de paletas accesibles, visor JSON y calculadora de especificidad CSS.
+        </p>
+        <div class="project-links">
+          <a href="#" class="project-link link-code">
+            <i class="fab fa-github"></i> Código
+          </a>
+          <a href="#" class="project-link link-demo">
+            <i class="fas fa-external-link-alt"></i> Demo
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Acortador Full Stack -->
+    <div class="project-card">
+      <div class="project-image-wrapper">
+        <img src="img/url-shortener.jpg" alt="Dashboard del acortador de URLs" class="project-image">
+      </div>
+      <div class="project-content">
+        <div class="project-tech">
+          <span class="tech-tag"><i class="fab fa-react"></i> React</span>
+          <span class="tech-tag"><i class="fab fa-node-js"></i> Node.js</span>
+          <span class="tech-tag"><i class="fas fa-database"></i> MongoDB</span>
+          <span class="tech-tag"><i class="fas fa-key"></i> JWT</span>
+        </div>
+        <h3 class="project-title">Acortador Full Stack</h3>
+        <p class="project-description">
+          Acortador de URLs con autenticación, analytics y API REST documentada.
+        </p>
+        <div class="project-links">
+          <a href="#" class="project-link link-code">
+            <i class="fab fa-github"></i> Código
+          </a>
+          <a href="#" class="project-link link-demo">
+            <i class="fas fa-external-link-alt"></i> Demo
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- E-commerce -->
+    <div class="project-card">
+      <div class="project-image-wrapper">
+        <img src="img/ecommerce.jpg" alt="Página de producto de e-commerce" class="project-image">
+      </div>
+      <div class="project-content">
+        <div class="project-tech">
+          <span class="tech-tag"><i class="fab fa-react"></i> Next.js</span>
+          <span class="tech-tag"><i class="fab fa-stripe"></i> Stripe</span>
+          <span class="tech-tag"><i class="fas fa-database"></i> MongoDB</span>
+          <span class="tech-tag"><i class="fas fa-wind"></i> Tailwind</span>
+        </div>
+        <h3 class="project-title">Tienda Online</h3>
+        <p class="project-description">
+          E-commerce completo con carrito, checkout y pasarela de pagos Stripe.
+        </p>
+        <div class="project-links">
+          <a href="#" class="project-link link-code">
+            <i class="fab fa-github"></i> Código
+          </a>
+          <a href="#" class="project-link link-demo">
+            <i class="fas fa-external-link-alt"></i> Demo
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Keyboard Game -->
+    <div class="project-card">
+      <div class="project-image-wrapper">
+        <img src="img/keyboard-game.jpg" alt="Juego de mecanografía para aprender idiomas" class="project-image">
+      </div>
+      <div class="project-content">
+        <div class="project-tech">
+          <span class="tech-tag"><i class="fab fa-js-square"></i> JavaScript</span>
+          <span class="tech-tag"><i class="fas fa-microphone-alt"></i> Web Speech API</span>
+          <span class="tech-tag"><i class="fas fa-keyboard"></i> Typing</span>
+        </div>
+        <h3 class="project-title">Keyboard Game</h3>
+        <p class="project-description">
+          Juego interactivo para aprender vocabulario mediante mecanografía con sistema de puntuación.
+        </p>
+        <div class="project-links">
+          <a href="#" class="project-link link-code">
+            <i class="fab fa-github"></i> Código
+          </a>
+          <a href="#" class="project-link link-demo">
+            <i class="fas fa-external-link-alt"></i> Demo
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Catálogo UI -->
+    <div class="project-card">
+      <div class="project-image-wrapper">
+        <img src="img/ui-catalog.jpg" alt="Biblioteca de componentes UI" class="project-image">
+      </div>
+      <div class="project-content">
+        <div class="project-tech">
+          <span class="tech-tag"><i class="fab fa-react"></i> React</span>
+          <span class="tech-tag"><i class="fas fa-book"></i> Storybook</span>
+          <span class="tech-tag"><i class="fab fa-sass"></i> SASS</span>
+          <span class="tech-tag"><i class="fab fa-figma"></i> Figma</span>
+        </div>
+        <h3 class="project-title">Catálogo UI</h3>
+        <p class="project-description">
+          Biblioteca de componentes reutilizables con documentación interactiva en Storybook.
+        </p>
+        <div class="project-links">
+          <a href="#" class="project-link link-code">
+            <i class="fab fa-github"></i> Código
+          </a>
+          <a href="#" class="project-link link-demo">
+            <i class="fas fa-external-link-alt"></i> Demo
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Buscador Indexado -->
+    <div class="project-card">
+      <div class="project-image-wrapper">
+        <img src="img/search-engine.jpg" alt="Interfaz del buscador indexado" class="project-image">
+      </div>
+      <div class="project-content">
+        <div class="project-tech">
+          <span class="tech-tag"><i class="fab fa-js-square"></i> JavaScript</span>
+          <span class="tech-tag"><i class="fas fa-search"></i> Lunr.js</span>
+          <span class="tech-tag"><i class="fas fa-bolt"></i> Web Workers</span>
+        </div>
+        <h3 class="project-title">Buscador Indexado</h3>
+        <p class="project-description">
+          Motor de búsqueda local con sugerencias en tiempo real y resaltado de resultados.
+        </p>
+        <div class="project-links">
+          <a href="#" class="project-link link-code">
+            <i class="fab fa-github"></i> Código
+          </a>
+          <a href="#" class="project-link link-demo">
+            <i class="fas fa-external-link-alt"></i> Demo
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Visualizador Algoritmos -->
+    <div class="project-card">
+      <div class="project-image-wrapper">
+        <img src="img/algorithms.jpg" alt="Visualización de algoritmo de ordenamiento" class="project-image">
+      </div>
+      <div class="project-content">
+        <div class="project-tech">
+          <span class="tech-tag"><i class="fab fa-react"></i> React</span>
+          <span class="tech-tag"><i class="fas fa-project-diagram"></i> p5.js</span>
+          <span class="tech-tag"><i class="fas fa-sort-amount-down"></i> Algorithmia</span>
+        </div>
+        <h3 class="project-title">Visualizador Algoritmos</h3>
+        <p class="project-description">
+          Plataforma educativa con animaciones paso a paso de algoritmos de ordenamiento.
+        </p>
+        <div class="project-links">
+          <a href="#" class="project-link link-code">
+            <i class="fab fa-github"></i> Código
+          </a>
+          <a href="#" class="project-link link-demo">
+            <i class="fas fa-external-link-alt"></i> Demo
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Trello Clone -->
+    <div class="project-card">
+      <div class="project-image-wrapper">
+        <img src="img/trello-clone.jpg" alt="Tablero Kanban estilo Trello" class="project-image">
+      </div>
+      <div class="project-content">
+        <div class="project-tech">
+          <span class="tech-tag"><i class="fab fa-react"></i> React</span>
+          <span class="tech-tag"><i class="fas fa-arrows-alt"></i> React DnD</span>
+          <span class="tech-tag"><i class="fas fa-network-wired"></i> Socket.io</span>
+        </div>
+        <h3 class="project-title">Trello Clone</h3>
+        <p class="project-description">
+          Tablero Kanban colaborativo con drag-and-drop y actualizaciones en tiempo real.
+        </p>
+        <div class="project-links">
+          <a href="#" class="project-link link-code">
+            <i class="fab fa-github"></i> Código
+          </a>
+          <a href="#" class="project-link link-demo">
+            <i class="fas fa-external-link-alt"></i> Demo
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Twitter Clone -->
+    <div class="project-card">
+      <div class="project-image-wrapper">
+        <img src="img/twitter-clone.jpg" alt="Clon de interfaz de Twitter" class="project-image">
+      </div>
+      <div class="project-content">
+        <div class="project-tech">
+          <span class="tech-tag"><i class="fab fa-react"></i> React</span>
+          <span class="tech-tag"><i class="fas fa-fire"></i> Firebase</span>
+          <span class="tech-tag"><i class="fas fa-code-branch"></i> Redux</span>
+        </div>
+        <h3 class="project-title">Twitter Clone</h3>
+        <p class="project-description">
+          Red social minimalista con posts, timeline y sistema de followers.
+        </p>
+        <div class="project-links">
+          <a href="#" class="project-link link-code">
+            <i class="fab fa-github"></i> Código
+          </a>
+          <a href="#" class="project-link link-demo">
+            <i class="fas fa-external-link-alt"></i> Demo
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Juego RPG -->
+    <div class="project-card">
+      <div class="project-image-wrapper">
+        <img src="img/rpg-game.jpg" alt="Captura del juego RPG con Phaser" class="project-image">
+      </div>
+      <div class="project-content">
+        <div class="project-tech">
+          <span class="tech-tag"><i class="fas fa-gamepad"></i> Phaser 3</span>
+          <span class="tech-tag"><i class="fas fa-map"></i> Tiled</span>
+          <span class="tech-tag"><i class="fas fa-music"></i> Howler.js</span>
+        </div>
+        <h3 class="project-title">Juego RPG</h3>
+        <p class="project-description">
+          Aventura 2D con combate por turnos, sistema de inventario y quests.
+        </p>
+        <div class="project-links">
+          <a href="#" class="project-link link-code">
+            <i class="fab fa-github"></i> Código
+          </a>
+          <a href="#" class="project-link link-demo">
+            <i class="fas fa-external-link-alt"></i> Demo
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- CMS -->
+    <div class="project-card">
+      <div class="project-image-wrapper">
+        <img src="img/cms.jpg" alt="Panel de administración de contenido" class="project-image">
+      </div>
+      <div class="project-content">
+        <div class="project-tech">
+          <span class="tech-tag"><i class="fab fa-react"></i> React</span>
+          <span class="tech-tag"><i class="fab fa-node-js"></i> Node.js</span>
+          <span class="tech-tag"><i class="fas fa-database"></i> MongoDB</span>
+        </div>
+        <h3 class="project-title">Sistema de Gestión</h3>
+        <p class="project-description">
+          Plataforma CMS con editor en tiempo real y administración de contenido.
+        </p>
+        <div class="project-links">
+          <a href="#" class="project-link link-code">
+            <i class="fab fa-github"></i> Código
+          </a>
+          <a href="#" class="project-link link-demo">
+            <i class="fas fa-external-link-alt"></i> Demo
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+   <!-- CERTIFICACIONES -->
+
+  <section id="certificaciones" class="certifications-section">
+    <div class="certifications-container">
+      <h2 class="certifications-title">Mis Certificaciones</h2>
+      
+      <div class="certifications-grid">
+        <!-- Certificación 1 -->
+        <div class="certification-card">
+          <div class="certification-header">
+            <div class="certification-provider">FreeCodeCamp</div>
+            <h3 class="certification-name">Responsive Web Design</h3>
+          </div>
+          <div class="certification-body">
+            <div class="certification-skills">
+              <span class="skill-tag">HTML</span>
+              <span class="skill-tag">CSS</span>
+              <span class="skill-tag">Flexbox</span>
+              <span class="skill-tag">CSS Grid</span>
+            </div>
+            <p class="certification-description">
+              Certificación en diseño web responsivo, dominando las técnicas modernas de maquetación y layout.
+            </p>
+          </div>
+          <div class="certification-footer">
+            <span class="certification-date">Emitida: Junio 2023</span>
+            <a href="#" class="verification-link">Ver credencial</a>
+          </div>
+        </div>
+        
+        <!-- Certificación 2 -->
+        <div class="certification-card">
+          <div class="certification-header">
+            <div class="certification-provider">FreeCodeCamp</div>
+            <h3 class="certification-name">JavaScript Algorithms and Data Structures</h3>
+          </div>
+          <div class="certification-body">
+            <div class="certification-skills">
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">Algoritmos</span>
+              <span class="skill-tag">Estructuras de Datos</span>
+              <span class="skill-tag">OOP</span>
+            </div>
+            <p class="certification-description">
+              Dominio de los fundamentos de JavaScript incluyendo programación funcional y orientada a objetos.
+            </p>
+          </div>
+          <div class="certification-footer">
+            <span class="certification-date">Emitida: Agosto 2023</span>
+            <a href="#" class="verification-link">Ver credencial</a>
+          </div>
+        </div>
+        
+        <!-- Certificación 3 -->
+        <div class="certification-card">
+          <div class="certification-header">
+            <div class="certification-provider">FreeCodeCamp</div>
+            <h3 class="certification-name">Front End Development Libraries</h3>
+          </div>
+          <div class="certification-body">
+            <div class="certification-skills">
+              <span class="skill-tag">React</span>
+              <span class="skill-tag">Redux</span>
+              <span class="skill-tag">Sass</span>
+              <span class="skill-tag">Bootstrap</span>
+            </div>
+            <p class="certification-description">
+              Certificación en las principales bibliotecas y frameworks para desarrollo frontend moderno.
+            </p>
+          </div>
+          <div class="certification-footer">
+            <span class="certification-date">Emitida: Octubre 2023</span>
+            <a href="#" class="verification-link">Ver credencial</a>
+          </div>
+        </div>
+        
+        <!-- Más certificaciones... -->
+      </div>
+    </div>
+  </section>
+  
+  <!-- CONTACTO... -->
+  
+  <section id="contacto" class="contact-section">
+    <div class="contact-container">
+      <div class="contact-header">
+        <h2 class="section-title">Contáctame</h2>
+        <p class="section-subtitle">¿Interesado en trabajar juntos o tienes alguna pregunta? Envíame un mensaje y te responderé lo antes posible.</p>
+      </div>
+      
+      <div class="contact-content">
+        <form id="contact-form" class="contact-form" 
+            action="https://formspree.io/f/xdkgbbvp" 
+            method="POST">
+        
+        <div class="form-row">
+          <div class="form-group">
+            <label for="nombre" class="form-label">Nombre completo</label>
+            <input type="text" id="nombre" name="nombre" class="form-input" placeholder="Ej: Juan Pérez" required>
+            <span class="input-icon"><i class="fas fa-user"></i></span>
+          </div>
+          
+          <div class="form-group">
+            <label for="email" class="form-label">Correo electrónico</label>
+            <input type="email" id="email" name="email" class="form-input" placeholder="Ej: juan@ejemplo.com" required>
+            <span class="input-icon"><i class="fas fa-envelope"></i></span>
+          </div>
+        </div>
+        
+        <div class="form-group">
+          <label for="mensaje" class="form-label">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" class="form-textarea" placeholder="Escribe tu mensaje aquí..." rows="6" required></textarea>
+          <span class="textarea-icon"><i class="fas fa-comment-alt"></i></span>
+        </div>
+        
+        <!-- Campo oculto para redirección después del envío (opcional) -->
+        <input type="hidden" name="_next" value="https://tudominio.com/gracias.html">
+        
+        <!-- Para evitar spam -->
+        <input type="text" name="_gotcha" style="display:none">
+        
+        <div class="form-submit">
+          <button type="submit" class="submit-btn">
+            <span>Enviar mensaje</span>
+            <i class="fas fa-paper-plane"></i>
+          </button>
+        </div>
+      </form>
+      
+      <div class="contact-info">
+          <div class="info-card">
+            <div class="info-icon">
+              <i class="fas fa-envelope-open-text"></i>
+            </div>
+            <div class="info-content">
+              <h4>Correo electrónico</h4>
+              <a href="mailto:alangustinquiroga03@gmail.com">alangustinquiroga03@gmail.com</a>
+            </div>
+          </div>
+          
+          <div class="info-card">
+            <div class="info-icon">
+              <i class="fas fa-phone-alt"></i>
+            </div>
+            <div class="info-content">
+              <h4>Teléfono</h4>
+              <a href="tel:+541135242337">+54 11 3524-2337</a>
+            </div>
+          </div>
+          
+          <div class="info-card">
+            <div class="info-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="info-content">
+              <h4>Ubicación</h4>
+              <p>Buenos Aires, Argentina</p>
+            </div>
+          </div>
+          
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <!-- FOOTER... -->
+
+  <footer class="professional-footer">
+  <div class="footer-container">
+    <div class="footer-content">
+      <div class="footer-social">
+        <a href="https://github.com/Alan-Quiroga/Portfolio" aria-label="GitHub" class="social-icon">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/alan-agustin-quiroga-735991284/" aria-label="LinkedIn" class="social-icon">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="#" aria-label="Instagram" class="social-icon">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+      <div class="footer-copyright">
+        <p>© 2025 Alan Agustin Quiroga. Creado con café, código y unas cuantas horas sin dormir.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>

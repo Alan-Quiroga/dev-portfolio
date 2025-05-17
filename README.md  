@@ -1,0 +1,88 @@
+# Portfolio Profesional - Alan Quiroga
+
+![Preview del Portfolio](https://i.postimg.cc/wB6drZLx/Chat-GPT-Image-10-may-2025-03-59-14-a-m.png)
+
+Portfolio profesional responsive desarrollado con HTML5, CSS3 y JavaScript, diseñado para mostrar mis proyectos, habilidades y certificaciones como Desarrollador Full Stack.
+
+## 🚀 Características principales
+
+- **Diseño completamente responsive** (adaptable a móviles, tablets y desktop)
+- **Estructura semántica** con HTML5
+- **Animaciones y efectos** modernos con CSS3
+- **Formulario de contacto funcional** con Netlify
+- **Navegación fluida** entre secciones
+- **Diseño visual atractivo** con:
+  - Efectos hover interactivos
+  - Cards de proyectos y certificaciones
+  - Imagen de perfil circular con efecto de zoom
+
+## 🛠 Tecnologías utilizadas
+
+- **Frontend**:
+  - HTML5 semántico
+  - CSS3 (Flexbox, Grid, Animaciones)
+  - JavaScript básico
+  - Font Awesome (iconos)
+  - Google Fonts (tipografía Roboto)
+
+- **Hosting**:
+  - GitHub Pages / Netlify
+
+## 📌 Estructura del proyecto
+
+portfolio/
+├── index.html # Archivo principal HTML
+├── styles.css # Hoja de estilos principal
+├── script.js # JavaScript (opcional para funcionalidades)
+└── README.md # Este archivo
+
+## 🔍 Secciones del portfolio
+
+1. **Sobre mí**: Presentación profesional con imagen circular y destacados de habilidades
+2. **Proyectos**: Grid de cards con mis trabajos destacados (imagen, tecnologías, links)
+3. **Certificaciones**: Cards con mis certificaciones técnicas
+4. **Contacto**: Formulario funcional con validación y datos de contacto alternativos
+
+## 🎨 Diseño y estilos
+
+- **Paleta de colores principal**:
+  - Azul primario: `#3a86ff`
+  - Azul oscuro: `#2667cc`
+  - Gris oscuro: `#2d3748`
+  - Blanco: `#ffffff`
+
+- **Efectos especiales**:
+  - Hover animations en botones y cards
+  - Efecto de flotación en elementos decorativos
+  - Transiciones suaves en interacciones
+
+## 📱 Responsive Design
+
+El portfolio está diseñado para adaptarse a:
+
+- **Mobile**: 320px - 480px
+- **Tablet**: 481px - 768px
+- **Laptop**: 769px - 1024px
+- **Desktop**: 1025px+
+
+## 🌐 Deployment
+
+El proyecto está desplegado en:
+
+🔗 [GitHub Pages](https://alan-quiroga.github.io/portfolio)  
+🔗 [Netlify](https://alan-quiroga-portfolio.netlify.app)
+
+## 📝 Cómo contribuir
+
+Si deseas contribuir o usar este proyecto como base:
+
+1. Haz un fork del repositorio
+2. Crea una rama con tu feature (`git checkout -b feature/awesome-feature`)
+3. Haz commit de tus cambios (`git commit -m 'Add some awesome feature'`)
+4. Haz push a la rama (`git push origin feature/awesome-feature`)
+5. Abre un Pull Request
+
+---
+
+✨ Desarrollado con pasión por [Alan Quiroga](https://github.com/Alan-Quiroga)  
+📧 Contacto: alangustinquiroga03@gmail.com
