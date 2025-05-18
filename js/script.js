@@ -14,7 +14,7 @@
     // Cargar tema guardado o usar el predeterminado
     const savedTheme = localStorage.getItem('theme') || 'light';
     document.documentElement.setAttribute('data-theme', savedTheme);
-    themeStyle.href = `/css/${savedTheme}.css`;
+    themeStyle.href = `css/${savedTheme}.css`;
     
     // Actualizar icono según el tema actual
     updateIcon(savedTheme);
@@ -26,7 +26,7 @@
       
       // Aplicar nuevo tema
       document.documentElement.setAttribute('data-theme', newTheme);
-      themeStyle.href = `/css/${newTheme}.css`;
+      themeStyle.href = `css/${newTheme}.css`;
       localStorage.setItem('theme', newTheme);
       
       // Actualizar icono
