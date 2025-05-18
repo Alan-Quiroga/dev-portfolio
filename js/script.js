@@ -4,7 +4,7 @@
   // Cargar tema guardado al iniciar
   const savedTheme = localStorage.getItem('theme') || 'light';
   document.documentElement.setAttribute('data-theme', savedTheme);
-  document.getElementById('theme-style').href = `/css/${savedTheme}.css`;
+  document.getElementById('theme-style').href = `css/${savedTheme}.css`;
 
   document.addEventListener('DOMContentLoaded', function() {
     const themeToggle = document.getElementById('theme-toggle');
