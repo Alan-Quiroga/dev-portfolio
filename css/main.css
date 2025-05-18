@@ -40,6 +40,65 @@ header {
     background-color: var(--primary-color);
     color: var(--text-light);
   }
+
+  /* ===== NAV RESPONSIVO MEJORADO ===== */
+@media (max-width: 768px) {
+  header {
+    padding: 10px 0;
+  }
+  
+  nav {
+    padding: 10px 15px;
+    max-width: 100%;
+    border-radius: 30px;
+    margin: 0 15px; /* Agrega margen a los lados */
+  }
+  
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    padding: 5px 0; /* Espacio interno */
+  }
+  
+  nav li {
+    margin: 0;
+    flex: 1; /* Hace que los items ocupen espacio igual */
+    min-width: max-content; /* Evita que el texto se corte */
+    text-align: center;
+  }
+  
+  nav a {
+    padding: 6px 10px;
+    font-size: 0.85rem;
+    display: block; /* Ocupa todo el espacio disponible */
+    white-space: nowrap; /* Evita saltos de línea */
+  }
+}
+
+@media (max-width: 480px) {
+  nav {
+    padding: 8px 10px;
+    margin: 0 10px; /* Menos margen en pantallas muy pequeñas */
+  }
+  
+  nav ul {
+    gap: 5px;
+  }
+  
+  nav a {
+    padding: 5px 8px;
+    font-size: 0.8rem;
+  }
+}
+
+/* Ajuste extra para pantallas muy pequeñas (menos de 360px) */
+@media (max-width: 400) {
+  nav a {
+    font-size: 0.65;
+    padding: 1px 2px;
+  }
+}
   
   /* ===== COMPONENTES REUTILIZABLES ===== */
   .btn {
