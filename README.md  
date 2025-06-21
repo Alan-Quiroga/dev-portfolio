@@ -1,88 +1,85 @@
 # Portfolio Profesional - Alan Quiroga
 
-![Preview del Portfolio](https://i.postimg.cc/wB6drZLx/Chat-GPT-Image-10-may-2025-03-59-14-a-m.png)
+## 📌 Descripción
 
-Portfolio profesional responsive desarrollado con HTML5, CSS3 y JavaScript, diseñado para mostrar mis proyectos, habilidades y certificaciones como Desarrollador Full Stack.
+Portfolio profesional responsive que muestra mis habilidades, proyectos y certificaciones como desarrollador Full Stack. El sitio incluye:
 
-## 🚀 Características principales
+- Sistema de tema claro/oscuro con persistencia
+- Diseño completamente responsive
+- Formulario de contacto funcional
+- Secciones detalladas de proyectos y certificaciones
+- Efectos visuales y transiciones profesionales
 
-- **Diseño completamente responsive** (adaptable a móviles, tablets y desktop)
-- **Estructura semántica** con HTML5
-- **Animaciones y efectos** modernos con CSS3
-- **Formulario de contacto funcional** con Netlify
-- **Navegación fluida** entre secciones
-- **Diseño visual atractivo** con:
-  - Efectos hover interactivos
-  - Cards de proyectos y certificaciones
-  - Imagen de perfil circular con efecto de zoom
+## 🛠 Tecnologías Utilizadas
 
-## 🛠 Tecnologías utilizadas
+### Frontend
+- **HTML5** - Estructura semántica
+- **CSS3** - Estilos personalizados con variables CSS
+- **JavaScript** - Interactividad y cambio de tema
+- **Flexbox/Grid** - Maquetación moderna
+- **Font Awesome** - Iconos
 
-- **Frontend**:
-  - HTML5 semántico
-  - CSS3 (Flexbox, Grid, Animaciones)
-  - JavaScript básico
-  - Font Awesome (iconos)
-  - Google Fonts (tipografía Roboto)
+### Herramientas
+- **Git** - Control de versiones
+- **Netlify** - Hosting
+- **Formspree** - Manejo de formularios
+- **Google Fonts** - Tipografía
 
-- **Hosting**:
-  - GitHub Pages / Netlify
+## 🚀 Instalación Local
+1. Clona el repositorio: git clone https://github.com/Alan-Quiroga/dev-portfolio
+2. Abre el proyecto en tu editor favorito
+3. Para probar localmente:
+- Abre el archivo index.html en tu navegador
+- O usa un servidor local como Live Server (VS Code)
 
-## 📌 Estructura del proyecto
+## 🌟 Características Destacadas
+
+### Tema Dinámico
+- Cambio suave entre tema claro/oscuro
+- Detección automática de preferencia del sistema
+- Persistencia en localStorage
+
+### Diseño Responsivo
+- Adaptable a móviles, tablets y desktop
+- Menú de navegación adaptable
+- Grids flexibles en todas las secciones
+
+### Formulario de Contacto
+- Validación integrada
+- Integración con Formspree
+- Feedback visual al usuario
+
+## 📂 Estructura de Archivos
 
 portfolio/
-├── index.html # Archivo principal HTML
-├── styles.css # Hoja de estilos principal
-├── script.js # JavaScript (opcional para funcionalidades)
-└── README.md # Este archivo
+├── css/
+│   ├── base.css       # Estilos base
+│   ├── dark.css       # Variables tema oscuro
+│   ├── light.css      # Variables tema claro
+│   └── main.css       # Estilos principales
+├── img/               # Imágenes optimizadas
+├── js/
+│   └── script.js      # Lógica principal
+├── index.html         # Página principal
+└── README.md          # Este archivo
 
-## 🔍 Secciones del portfolio
+🔍 SEO y Accesibilidad
+- Metaetiquetas optimizadas
+- Atributos alt en todas las imágenes
+- Aria-labels para elementos interactivos
+- Contraste adecuado en ambos temas
+- Navegación por teclado
 
-1. **Sobre mí**: Presentación profesional con imagen circular y destacados de habilidades
-2. **Proyectos**: Grid de cards con mis trabajos destacados (imagen, tecnologías, links)
-3. **Certificaciones**: Cards con mis certificaciones técnicas
-4. **Contacto**: Formulario funcional con validación y datos de contacto alternativos
+🌐 Demo en Vivo
 
-## 🎨 Diseño y estilos
+El portfolio está disponible en Netlify:
+https://alanquiroga.com.ar/
 
-- **Paleta de colores principal**:
-  - Azul primario: `#3a86ff`
-  - Azul oscuro: `#2667cc`
-  - Gris oscuro: `#2d3748`
-  - Blanco: `#ffffff`
+📬 Contacto
 
-- **Efectos especiales**:
-  - Hover animations en botones y cards
-  - Efecto de flotación en elementos decorativos
-  - Transiciones suaves en interacciones
+¿Preguntas o comentarios?
+📧 Mail : alangustinquiroga03@gmail.com
+🔗 LinkedIn : https://www.linkedin.com/in/alan-agustin-quiroga-735991284/
+💻 GitHub : https://github.com/Alan-Quiroga
 
-## 📱 Responsive Design
-
-El portfolio está diseñado para adaptarse a:
-
-- **Mobile**: 320px - 480px
-- **Tablet**: 481px - 768px
-- **Laptop**: 769px - 1024px
-- **Desktop**: 1025px+
-
-## 🌐 Deployment
-
-El proyecto está desplegado en:
-
-🔗 [GitHub Pages](https://alan-quiroga.github.io/portfolio)  
-🔗 [Netlify](https://alan-quiroga-portfolio.netlify.app)
-
-## 📝 Cómo contribuir
-
-Si deseas contribuir o usar este proyecto como base:
-
-1. Haz un fork del repositorio
-2. Crea una rama con tu feature (`git checkout -b feature/awesome-feature`)
-3. Haz commit de tus cambios (`git commit -m 'Add some awesome feature'`)
-4. Haz push a la rama (`git push origin feature/awesome-feature`)
-5. Abre un Pull Request
-
----
-
-✨ Desarrollado con pasión por [Alan Quiroga](https://github.com/Alan-Quiroga)  
-📧 Contacto: alangustinquiroga03@gmail.com
+© 2025 Alan Quiroga - Todos los derechos reservados
